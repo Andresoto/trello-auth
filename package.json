@@ -24,12 +24,14 @@
     "@fortawesome/fontawesome-svg-core": "~6.1.1",
     "@fortawesome/free-brands-svg-icons": "~6.1.1",
     "@fortawesome/free-solid-svg-icons": "~6.1.1",
+    "jwt-decode": "^3.1.2",
     "rxjs": "~7.5.0",
     "tslib": "~2.3.0",
+    "typescript-cookie": "^1.0.4",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~14.1.0",
+    "@angular-devkit/build-angular": "^14.2.10",
     "@angular-eslint/builder": "14.0.2",
     "@angular-eslint/eslint-plugin": "14.0.2",
     "@angular-eslint/eslint-plugin-template": "14.0.2",
