@@ -14,6 +14,6 @@ export class UsersService {
   ) { }
 
   getUsers() {
-    return this.http.get<User[]>(`https://fake-trello-api.herokuapp.com/api/v1/users`, { context: checkToken() })
+    return this.http.get<User[]>(`https://fake-trello-api.herokuapp.com/api/v1/users`)
   }
 }
